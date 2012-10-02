@@ -1,0 +1,10 @@
+*.hi
+*.o
+*.pdf
+*.html
+linreg
+circles
+res*
+.hsenv*
+*.prof
+dev
