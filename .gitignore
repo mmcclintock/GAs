@@ -1,0 +1,8 @@
+*.hi
+*.o
+*.pdf
+*.html
+linreg
+circles
+.hsenv*
+*.prof
