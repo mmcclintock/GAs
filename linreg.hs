@@ -44,10 +44,10 @@ evolve pop = do
   pars <- computeS <$> selection pop probs
   computeS <$> mutationCreep pars
 
-conf rg = GAConfig { popSize = 20000
-                   , numberGens = 5
+conf rg = GAConfig { popSize = 200
+                   , numberGens = 1000
                    , vecSize = 2
-                   , mutationRate = 0.01
+                   , mutationRate = 0.1
                    , recombinationRate = 0.5
                    , randomGenerator = rg
                    }

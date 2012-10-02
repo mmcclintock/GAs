@@ -3,6 +3,7 @@
 *.pdf
 *.html
 linreg
+linreg.exe
 circles
 res*
 .hsenv*
