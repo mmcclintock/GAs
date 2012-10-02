@@ -7,8 +7,8 @@ points = np.matrix([[-1, 0, 3, 5],[-0.5, 0, 1.5, 2.5]], dtype=np.float64)
 numPoints = points.shape[1]
 
 # configuration
-popSize = 100
-numberGens = 10000
+popSize = 200
+numberGens = 1000
 vecSize = 2
 mutationRate = 0.1
 recombinationRate = 0.5
@@ -45,4 +45,4 @@ def run(n=numberGens, pop=initPop):
     creep_mutation(pop)
   return pop[fitness(pop).argmax()]
 
-run(100)
+print run()
