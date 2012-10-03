@@ -1,4 +1,6 @@
-GAs
-===
+GAs - Experimenting with Genetic Algorithms
+===========================================
 
-Experimentation with Genetic Algorithms
+This is the python branch.
+
+Pretty trivial numpy implementation.
